@@ -20,7 +20,7 @@ struct Duck : Bird {
     
     func fly() {
         
-        if (canFly==true) {
+        if canFly {
             print("This Duck is flying!")
         }
             else {
