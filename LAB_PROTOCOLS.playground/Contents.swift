@@ -20,9 +20,14 @@ struct Duck: Bird{
             else{
             print("This Duck Cannot Fly")
     }
-    
+        if  canSwim == true{
+            print("This Duck Can swim")}
+            else{
+                print("This Duck Can swim")
+        }
 }
 }
+
 let duckBird: Bird = Duck(color: "white", wingspan: 2, canFly: false, canSwim: true)
 duckBird.fly()
 
